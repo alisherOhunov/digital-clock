@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+html{
+    background-color:  rgb(37, 35, 35);
+}
+body{
+    width: 700px;
+    margin: 0 auto;
+}
+.weekdays{
+    margin-right: 11%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(204, 12, 6);
+    font-family: Pacifico;
+}
+.offf{
+    opacity: 0.2;
+}
+.on{
+    opacity: 1;
+    margin-top: 8px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.clock{
+    margin-top: 1%;
+    position: relative;
+}
+.line{
+    background-color:rgb(226, 17, 6);
+    position: absolute;
+    border-radius: 5px;
+}
+.clock :nth-child(1){
+    width: 75px;
+    height: 6px;
+    left: 4px;
+}
+.clock :nth-child(2){
+    height: 66px;
+    width: 6px;
+    left: 79px;
+    top: 6px;
+}
+.clock :nth-child(3){
+    height: 66px;
+    width: 6px;
+    left: 79px;
+    top: 78px;
+}
+.clock :nth-child(4){
+    width: 77px;
+    height: 6px;
+    left: 3px;
+    top: 146px;
+}
+.clock :nth-child(5){
+    height: 66px;
+    width: 6px;
+    top: 78px;
+}
+.clock :nth-child(6){
+    height: 66px;
+    width: 6px;
+    top: 6px;
+}
+.clock :nth-child(7){
+    width: 73px;
+    height: 6px;
+    left: 5px;
+    top: 73px;
+}
+.second-number{
+    margin-left: 100px;
+}
+.double_dots{
+    position: relative;
+}
+.dot{
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+}
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 20px #000;
+}
+50% {
+    opacity: 0;
+    text-shadow: none;
+}	
+}
+.double_dots :nth-child(1){
+    width: 10px;
+    height: 10px;
+    left: 203px;
+    top: 40px;
+    border-radius: 5px;
+    background-color: rgb(250, 8, 0);
+}
+.double_dots :nth-child(2){
+    width: 10px;
+    height: 10px;
+    left: 203px;
+    top: 80px;
+    border-radius: 5px;
+    background-color:rgb(250, 8, 0);
+}
+.third-number{
+    margin-left: 232px;
+    margin-top: -20px;
+}
+.fourth-number{
+    margin-left: 330px;
+    margin-top: -20px;
+}
+.second-blog-of-dots{
+    margin-left: 228px;
+}
+.fifth-number{
+    margin-left: 457px;
+    margin-top: -20px;
+}
+.sixth-number{
+    margin-left: 556px;
+    margin-top: -20px;
+}
+.off{
+    opacity: 0.05;
+    background-color: white;
+}
+
